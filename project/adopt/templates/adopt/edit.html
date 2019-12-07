@@ -2,7 +2,7 @@
 <html>
 	<body>
 		<form method = 'post'>
-			{% csfr_token %}
+			{% csrf_token %}
 			{{form.as_p}}
 			<br>
 			<input type='submit' name ='Submit'>
